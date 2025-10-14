@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatty</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💬 Chatty</h1>
+  <div id="chat-box"></div>
+  <input type="text" id="name" placeholder="Your name (max 12 chars)" maxlength="12">
+  <input type="text" id="msg" placeholder="Type message... (max 60 chars)" maxlength="60">
+  <button onclick="send()">Send</button>
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
